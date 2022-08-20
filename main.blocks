@@ -1,0 +1,61 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="k[FdXb[Z(Wokt[.qJy?b" x="147" y="28"><statement name="HANDLER"><block type="ir_init" id="q:e5WWJKc0a]?c*L{L2x"><field name="pin">Pins.P0</field></block></statement></block><block type="ir_received_left_event" id="IILLpdAl@/lmwHeS{zC^" x="474" y="22"><field name="btn">RemoteButton.NUM1</field><statement name="HANDLER"><block type="device_show_number" id="*GsmnI2Dx5Le@inVGPI1"><value name="number"><shadow type="math_number" id="%5?%)5Bo66UbBXo|2=b%"><field name="NUM">5</field></shadow></value><next><block type="device_pause" id="-kW8*J]MO=DqawM%@lT|"><value name="pause"><shadow type="timePicker" id="8IwX5S3xs2[zvAJQWjW9"><field name="ms">200</field></shadow></value><next><block type="device_show_number" id="+d}[wCqG_?5;8ssSu9+P"><value name="number"><shadow type="math_number" id="D+FNtfaFz::lTvvG=bt#"><field name="NUM">4</field></shadow></value><next><block type="device_pause" id="yd?/tfvTls+VsKPCCllH"><value name="pause"><shadow type="timePicker" id="~f[X*a#u)[l#yq^T;-{5"><field name="ms">200</field></shadow></value><next><block type="device_show_number" id="[c/4dhC?Z~P2rVO+-@hc"><value name="number"><shadow type="math_number" id="2jM8.B,P8#0jy$d24~s:"><field name="NUM">3</field></shadow></value><next><block type="device_pause" id=",|y2%~pLl*$,QMM*c,)w"><value name="pause"><shadow type="timePicker" id="wW5t!*#z6FXu$TI7rJa%"><field name="ms">200</field></shadow></value><next><block type="device_show_number" id="0vRM^a1-hU_,)q{4*XDf"><value name="number"><shadow type="math_number" id="Iu@6G--tb|Uv_dMjlKL0"><field name="NUM">2</field></shadow></value><next><block type="device_pause" id="n@?03:_=ZY%#)ptj3?q}"><value name="pause"><shadow type="timePicker" id="].KlCk9#c^QA@J%(l_13"><field name="ms">200</field></shadow></value><next><block type="device_show_number" id="lcA9]sBlPH_zBC3t*UA_"><value name="number"><shadow type="math_number" id="c^K,/qz)fzFeNRfH5w2C"><field name="NUM">1</field></shadow></value><next><block type="device_pause" id="O6v`7,jtPc?Do6-^A;@R"><value name="pause"><shadow type="timePicker" id="H~oHx5yBLAH;L/T7B2`c"><field name="ms">200</field></shadow></value><next><block type="device_show_leds" id="L|d=/K,+[bvZ-=2ytJ)w"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        . # # # .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="ir_received_left_event" id="8WdppU)2$ElR561o;)aQ" x="148" y="206"><field name="btn">RemoteButton.CH_MINUS</field><statement name="HANDLER"><block type="device_show_leds" id="QA4mYM!B_:PHb!hyIYgT"><field name="LEDS">`
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="device_pause" id="dK8=e35XNKI|7%d:j5kP"><value name="pause"><shadow type="timePicker" id="{4]Tpl=YzZ_mKh3b6La="><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="3Qndg?4x0@vl!5,e?2sq"><field name="LEDS">`
+        . # # # . 
+        # . # . # 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="9v11[t;L7t9u~2NWP:#n"><value name="pause"><shadow type="timePicker" id="T469s[(s|AY_2}+/fYSR"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="3x7_eK!CA;0OOXm//QC#"><field name="LEDS">`
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="O?23G2ZFTT??wDR6YM+g"><value name="pause"><shadow type="timePicker" id="S/IVZ|u(,J8y)-%@Sy0o"><field name="ms">1000</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="ir_received_left_event" id="sD`jR[8=fP^A9@z)zg`t" x="475" y="829"><field name="btn">RemoteButton.CH</field><statement name="HANDLER"><block type="device_show_leds" id="qe45:)xKN4g::+Pfp3ot"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id=".o?!!s{c3*a$2f0Q)4y|"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="UG%;[v/pMrfFF1Y{2Uf|"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="an=_5TDczlz0rf?*h`cI"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="KMeErB1[A9jP[}u*p{]t"><field name="LEDS">`
+        . # . # . 
+        # . . . # 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="ir_received_left_event" id="vAowk~.!;}Mu:Lf8a[}1" x="150" y="1145"><field name="btn">RemoteButton.NUM2</field><statement name="HANDLER"><block type="device_show_leds" id="0`;o!8Wh|w`.@:)@-(+5"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></xml>
