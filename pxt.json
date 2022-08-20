@@ -5,7 +5,8 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "IR_V15": "github:osoyoo/OSOYOO_IR_v1.5#31ed1d994323e242c7451818416acbdbff39f3b4"
+        "IR_V15": "github:osoyoo/OSOYOO_IR_v1.5#31ed1d994323e242c7451818416acbdbff39f3b4",
+        "MakerBit-IR-Receiver": "github:1010technologies/pxt-makerbit-ir-receiver#v1.5.14"
     },
     "files": [
         "main.blocks",
